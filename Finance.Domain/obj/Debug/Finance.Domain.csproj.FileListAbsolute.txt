@@ -1,0 +1,4 @@
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Domain\bin\Debug\Finance.Domain.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Domain\bin\Debug\Finance.Domain.pdb
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Domain\obj\Debug\Finance.Domain.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Domain\obj\Debug\Finance.Domain.pdb

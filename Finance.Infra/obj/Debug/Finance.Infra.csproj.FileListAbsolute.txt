@@ -1,0 +1,12 @@
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\Finance.Infra.dll.config
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\Finance.Infra.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\Finance.Infra.pdb
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\EntityFramework.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\Finance.Domain.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\Finance.Domain.pdb
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\EntityFramework.xml
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\obj\Debug\Finance.Infra.csprojResolveAssemblyReference.cache
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\obj\Debug\Finance.Infra.dll
+C:\Users\BetiolDev\Documents\Finance-Solution\Finance\Finance.Infra\obj\Debug\Finance.Infra.pdb
