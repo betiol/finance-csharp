@@ -11,9 +11,11 @@ namespace Finance.Domain.Entities
 
         public int DespesaId { get; set; }
         public string Descricao { get; set; }
+        public decimal Valor { get; set; }
         public DateTime DataVencimento { get; set; }
-        public bool Recebido { get; set; }
-        public DateTime DataPagamento { get; set; }
-        public virtual IEnumerable<CategoriaDespesas> CategoriaDespesas { get; set; }
+        public bool Pago { get; set; }
+        public DateTime? DataPagamento { get; set; }
+        public int CategoriaDespesaId { get; set; }
+        public virtual CategoriaDespesas CategoriaDespesas { get; set; }
     }
 }

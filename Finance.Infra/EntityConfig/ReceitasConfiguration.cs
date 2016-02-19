@@ -23,6 +23,11 @@ namespace Finance.Infra.EntityConfig
 
             Property(c => c.Recebido)
                 .IsRequired();
+
+            HasRequired(c => c.CategoriaReceitas)
+                .WithMany()
+                .HasForeignKey(c => c.CategoriaReceitasId);
+           
         }
     }
 }

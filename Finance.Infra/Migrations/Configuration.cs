@@ -5,14 +5,14 @@ namespace Finance.Infra.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Finance.Infra.Contexto.Finance>
+    internal sealed class Configuration : DbMigrationsConfiguration<Finance.Infra.Contexto.FinanceApplication>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(Finance.Infra.Contexto.Finance context)
+        protected override void Seed(Finance.Infra.Contexto.FinanceApplication context)
         {
             //  This method will be called after migrating to the latest version.
 

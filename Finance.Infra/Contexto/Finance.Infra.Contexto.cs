@@ -7,10 +7,10 @@ using System.Linq;
 
 namespace Finance.Infra.Contexto
 {
-    public class Finance : DbContext
+    public class FinanceApplication : DbContext
     {
-        public Finance()
-			:base("FinaceContext")
+        public FinanceApplication()
+			:base("FinaceContext1")
         {
 
         }

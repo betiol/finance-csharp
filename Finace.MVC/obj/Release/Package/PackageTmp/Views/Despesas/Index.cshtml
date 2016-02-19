@@ -1,0 +1,115 @@
+﻿@model IEnumerable<Finace.MVC.ViewModels.DespesasVM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList.Mvc;
+@using PagedList;
+
+<h2>Index</h2>
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+<tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Valor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataVencimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pago)
+        </th>
+        
+        <th>
+            
+            @Html.DisplayNameFor(model => model.DataPagamento)
+        </th>
+        <th>
+            @Html.Label("Descrição Categoria")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataVencimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pago)
+            </td>
+            <td>
+                
+                @Html.DisplayFor(modelItem => item.DataPagamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoriaDespesas.DescricaoCategoriaDespesa)
+            </td>
+            <td>
+
+                <button class="btn btn-xs btn-primary edit" data-id="@item.DespesaId"><i class="glyphicon glyphicon-edit"></i></button>
+                <button class="btn btn-xs btn-danger delete" data-id="@item.DespesaId"><i class="glyphicon glyphicon-trash"></i></button>
+
+            </td>
+        </tr>
+    }
+
+  
+    <tr>
+        <td></td>
+        <td>
+             @ViewBag.Total
+        </td>
+    </tr>
+
+
+</table>
+@*@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount*@
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page}))
+
+<div class="modal" id="modal">
+    </div>
+</html>
+@section scripts{
+    <script>
+        $(".edit").click(function () {
+            var id = $(this).attr("data-id");
+            $("#modal").load("Despesas/Edit?id=" + id, function () {
+                $("#modal").modal();
+            })
+        });
+
+        $(".delete").click(function () {
+            var id = $(this).attr("data-id");
+            $("#modal").load("Despesas/Delete?id=" + id, function () {
+                $("#modal").modal();
+            })
+        });
+
+        //$(function () {
+        //    $(".currency").maskMoney({
+        //        symbol: 'R$ ',
+        //        showSymbol: true, thousands: '.', decimal: '.', symbolStay: true
+        //    });
+        //});
+    </script>
+
+    
+}

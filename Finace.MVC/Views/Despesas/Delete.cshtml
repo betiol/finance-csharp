@@ -1,0 +1,83 @@
+﻿@model Finace.MVC.ViewModels.DespesasVM
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <br />
+            <h4 class="modal-title">Apagar Despesa <b>"@Model.Descricao"</b></h4>
+        </div>
+
+        <div>
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Descricao)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Valor)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Valor)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.DataVencimento)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DataVencimento)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Pago)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Pago)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.DataPagamento)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DataPagamento)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CategoriaDespesaId)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CategoriaDespesas.DescricaoCategoriaDespesa)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="modal-footer">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                    <input type="button" value="Cancelar" class="btn btn-default" data-dismiss="modal" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

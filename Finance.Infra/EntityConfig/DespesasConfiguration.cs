@@ -18,10 +18,6 @@ namespace Finance.Infra.EntityConfig
                 .IsRequired()
                 .HasMaxLength(150);
 
-            Property(c => c.DataPagamento)
-                .IsRequired();
-
-            Property(c => c.Recebido);
         }
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Infra.dll.config
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Infra.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Infra.pdb
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\EntityFramework.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Application.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Domain.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Application.pdb
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\Finance.Domain.pdb
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\EntityFramework.xml
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\obj\Release\Finance.Infra.csprojResolveAssemblyReference.cache
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\obj\Release\Finance.Infra.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Infra\obj\Release\Finance.Infra.pdb

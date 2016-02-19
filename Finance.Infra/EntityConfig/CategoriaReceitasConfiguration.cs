@@ -17,6 +17,8 @@ namespace Finance.Infra.EntityConfig
             Property(c => c.DescricaoCategoriaDespesa)
                 .IsRequired()
                 .HasMaxLength(150);
+
+
         }
     }
 }

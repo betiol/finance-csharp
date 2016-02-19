@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Finance.Domain.Interfaces.Repositories
 {
-    interface IReceitasRepository : IRepositoryBase<Receitas>
+   public interface IReceitasRepository : IRepositoryBase<Receitas>
     {
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\bin\Release\Finance.Application.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\bin\Release\Finance.Application.pdb
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\bin\Release\Finance.Domain.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\bin\Release\Finance.Domain.pdb
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\obj\Release\Finance.Application.csprojResolveAssemblyReference.cache
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\obj\Release\Finance.Application.dll
+C:\Users\BetiolDev\Desktop\teste\Finance\Finance.Application\obj\Release\Finance.Application.pdb
